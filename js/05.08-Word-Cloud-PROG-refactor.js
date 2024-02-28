@@ -125,6 +125,7 @@ function makeWordCloud(passObj5) {
             } else if(fontSz < 60) {
                 colr = colors[7];
             } else if(fontSz < 70) {
+                fontSz = 72;
                 colr = colors[8];
             } else { // biggest font size
                 colr = colors[9];
